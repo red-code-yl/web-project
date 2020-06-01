@@ -1,7 +1,7 @@
 function regist() {
     var username=document.getElementById("username");
     var userpass=document.getElementById("pass");
-    var telp=document.getElementById("tel");
+    var tel=document.getElementById("tel");
     var userpass1=document.getElementById("pass1");
 
     if (username.value=="") {
