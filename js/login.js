@@ -3,7 +3,7 @@ function login() {
     var userpass=document.getElementById("password");
 
     if (username.value=="") {
-        alert("请输入用户名);
+        alert("请输入用户名");
     }
     else if(userpass.value=="") {
         alert("请输入密码");
