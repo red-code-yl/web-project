@@ -1,0 +1,144 @@
+            /*css 初始化代码*/
+            /*清除元素默认的内外边距*/
+            
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            
+            body {
+                outline: none;
+                height: 3333333px;
+            }
+            /* 列表去掉左边的点 */
+            
+            li {
+                list-style: none;
+            }
+            /* 去掉链接的下划线 */
+            
+            a {
+                text-decoration: none;
+            }
+            /*去掉button 默认自带的边框*/
+            
+            button {
+                border: none;
+            }
+            /*清除浮动的*/
+            
+            .clearfix:before,
+            .clearfix:after {
+                content: "";
+                display: table;
+            }
+            
+            .clearfix:after {
+                clear: both;
+            }
+            
+            .clearfix {
+                *zoom: 1;
+            }
+            /* 滚动的图片 */
+            
+            .header .rotate {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+            }
+            
+            .nav {
+                position: fixed;
+            }
+            /* 网页logo */
+            
+            .logo img {
+                float: left;
+                width: 6%;
+                margin-left: 169px;
+                margin-top: -4px;
+            }
+            /* 搜索框 */
+            
+            .search {
+                position: relative;
+                float: left;
+                left: 34%;
+                transform: translate(-50%, 29%);
+            }
+            
+            .search input {
+                outline: none;
+                width: 500px;
+                height: 34px;
+                padding: 5px 40px 5px 20px;
+                vertical-align: top;
+                border-radius: 50px;
+                border: 1px solid rgba(204, 204, 204, .5);
+                background-color: rgba(241, 241, 241, .2);
+                color: #000;
+                line-height: 20px;
+            }
+            
+            .search .btn {
+                position: absolute;
+                top: 5px;
+                right: 0;
+                height: 34px;
+                margin-right: 10px;
+            }
+            /* 头像登陆注册*/
+            
+            .user {
+                float: right;
+                height: 50px;
+                margin-top: -30px;
+                margin-left: 550px;
+            }
+            
+            .user img {
+                height: 50px;
+                margin-right: 20px;
+                border-radius: 100%;
+            }
+            
+            .login,
+            .regist {
+                color: #eee;
+            }
+            
+            .user .login {
+                margin-right: 10px;
+            }
+            
+            .user .regist {
+                margin-right: 20px;
+            }
+            /* 小圆点 */
+            
+            .circle {
+                position: absolute;
+                top: 430px;
+                left: 50%;
+                margin-left: -35px;
+                bottom: 15px;
+                width: 70px;
+                height: 13px;
+                background: rgba(255, 255, 255, 0.3);
+                border-radius: 7px;
+            }
+            
+            .circle li {
+                float: left;
+                width: 8px;
+                height: 8px;
+                background-color: #fff;
+                margin: 3px;
+                border-radius: 50%;
+            }
+            
+            .circle li:hover {
+                background-color: #ccc;
+            }
