@@ -1,0 +1,227 @@
+.contain{
+    width: 980px;
+    margin: 0 auto;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+div{
+    display: block;
+}
+.head-contain{
+    padding-top: 10px;
+}
+.search-top{
+    width: 430px;
+    margin-left: 282px;
+}
+.search-block{
+    height: 44px;
+    margin: 0 auto;
+    position: relative;
+    width: 587px;
+}
+.search-input{
+    position: relative;
+    background: #fff;
+    border-radius: 4px;
+    float: left;
+    width: 330px;
+    margin-right: 10px;
+}
+input{
+    height: 18px;
+    box-shadow: none;
+    padding: 11px 15px;
+    background: transparent;
+    width: 296px;
+    border: 2px solid #ccd0d7;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #222;
+}
+.search-button{
+    margin-left: 7px;
+    cursor: pointer;
+    float: left;
+    color: #fff;
+    width: 70px;
+    background-color: #00a1d6;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 42px;
+    text-align: center;
+    border-radius: 6px;
+}
+.navigator{
+    overflow: hidden;
+    margin-top: 18px;
+    margin-left: -37px;
+    margin-right: -9px;
+    
+    
+}
+.nav-1{
+    margin-left: -37px;
+    margin-right: -9px;
+    overflow: hidden;
+    position: relative;
+}
+.fenlei{
+    position: relative;
+    font-size: 0;
+    z-index: 1;
+    white-space: nowrap;
+    flex-grow: 1;
+}
+.fenlei-list-1{
+    border-bottom: 1px solid #ccd0d7;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    color: #657786;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+a{
+    text-decoration: none;
+    outline: 0;
+    color: #00a1d6;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+}
+li span{
+    position: absolute;
+    margin-left: 6px;
+    font-size: 12px;
+    color: #6d757a;
+}
+.all-list{
+    margin-bottom: 30px;
+}
+.video-list{
+    margin-right: -32px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+.video-list-part{
+    float: left;
+    margin-right: 32px;
+    margin-top: 20px;
+    position: relative;
+    height: 208px;
+    width: 168px;
+    border: 1px solid #e5e9ef;
+    border-radius: 4px;
+    z-index: 0;
+}
+.img{
+    height: 100px;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+}
+.lazy-img{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+.lazy-img img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+img{
+    border: none;
+    vertical-align: middle;
+}
+.list-text{
+    padding: 8px 10px 0;
+}
+.list-title{
+    margin-bottom: 12px;
+    height: 40px;
+    overflow: hidden;
+}
+.title-1{
+    font-size: 12px;
+    line-height: 20px;
+    color: #222;
+}
+.play{
+    width: 41px;
+    overflow: inherit;
+    margin-right: 8px;
+    margin-bottom: 12px;
+    /* float: left; */
+    white-space: nowrap;
+    /* display: inline-block; */
+    font-size: 12px;
+    height: 12px;
+    vertical-align: text-top;
+    line-height: 12px;
+    padding-left: 16px;
+    position: relative;
+    color: #99a2aa;
+}
+.playcount{
+    background-position: -485px -543px;
+}
+.play i{
+    position: absolute;
+    left: -10px;
+    top: -4px;
+    background-image: url(../img/bofang1.png);
+    width: 15px;
+    height: 15px;
+}
+.play2{
+    width: 41px;
+    overflow: inherit;
+    margin-right: 8px;
+    margin-bottom: 12px;
+    /* float: left; */
+    white-space: nowrap;
+    display: inline-block;
+    font-size: 12px;
+    height: 12px;
+    vertical-align: text-top;
+    line-height: 12px;
+    padding-left: 16px;
+    position: relative;
+    color: #99a2aa;
+}
+.play2 i{
+    background-position: -442px -78px;
+    position: absolute;
+    left: 18;
+    top: 0;
+    background-image: url(../img/people2.png);
+    width: 11px;
+    height: 11px;
+}
+
+
+
+
+

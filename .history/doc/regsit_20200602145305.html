@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新用户注册页面</title>
+    <style type="text/css">
+        body{
+            text-align: center;
+        }  
+    </style>    
+</head>
+<body onload="createCode()">
+    <div id="concent" >
+        <form action ="#" >
+        <h3>注册</h3>
+        <input  name="username" type="text" required placeholder="用户昵称(2-6位)" minlength="2" maxlength="8"/>
+        <br/>
+        <br/>
+        <input name="tel" type="tel" required pattern="^1[3|4|5|8][0-9]\d{4,8}$" placeholder="手机号码" />
+        <br/>
+        <br/>
+        <input name="pass" required type="password" placeholder="设置密码(6-12位)" minlength="6" maxlength="12"/>
+        <br/>
+        <br/>
+        <input class="regsit" type="submit" value="立即注册"/>
+        <a href="login"></a>
+        </form>
+    </div>
+</body>
+</html>

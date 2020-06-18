@@ -1,0 +1,38 @@
+.contain{
+    width: 980px;
+    margin: 0 auto;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+div{
+    display: block;
+}
+.head-contain{
+    padding-top: 40px;
+}
+.search-top{
+    width: 430px;
+    float: left;
+    margin-left: 26px;
+}
+.search-input{
+    position: relative;
+    background: #fff;
+    border-radius: 4px;
+    float: left;
+    width: 330px;
+    margin-right: 10px;
+}
+.search-input input{
+    height: 18px;
+    box-shadow: none;
+    padding: 11px 15px;
+    background: transparent;
+    width: 296px;
+    border: 2px solid #ccd0d7;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #222;
+}

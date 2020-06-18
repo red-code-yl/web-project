@@ -1,0 +1,12 @@
+.contain{
+    width: 980px;
+    margin: 0 auto;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+div{
+    display: block;
+}
+.head-
