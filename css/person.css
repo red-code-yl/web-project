@@ -1,0 +1,296 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    li {
+        list-style: none;
+    }
+    /* 版心 */
+    
+    .w {
+        width: 920px;
+        margin: 0 auto;
+    }
+    
+    body {
+        background-image: url(../img/bg.jpg);
+        background-size: 100%;
+        background-position: center bottom;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    /*上半部分*/
+    
+    .header {
+        position: relative;
+        margin: 20px auto;
+        margin-bottom: 0;
+        width: 920px;
+        height: 300px;
+        /* background-color: pink; */
+        background-image: url(../img/bg3.jpg);
+        background-size: 100%;
+        background-position: center bottom;
+    }
+    
+    .header img {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        width: 100px;
+        margin-top: 47px;
+        border-radius: 100%;
+    }
+    
+    .header .username {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        margin-top: 164px;
+        font-size: 20px;
+        color: #fff;
+        text-align: center;
+        text-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+        vertical-align: text-bottom;
+    }
+    
+    .header .intro {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        margin-top: 211px;
+        color: #fff;
+        text-align: center;
+        text-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+        vertical-align: text-bottom;
+    }
+    /* 导航栏部分 */
+    
+    .nav {
+        width: 920px;
+        height: 40px;
+        background-color: #fff;
+        margin: auto;
+        margin-bottom: 20px;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+    }
+    
+    .nav .warp {
+        width: 342px;
+        margin: auto;
+    }
+    
+    .mypage,
+    .myconcerns,
+    .myenjoy {
+        display: inline-block;
+        height: 40px;
+        float: left;
+        margin: auto;
+        line-height: 40px;
+        margin-right: 50px;
+        border-bottom: 2px solid skyblue;
+    }
+    /* 左边部分 */
+    
+    .left {
+        /* position: fixed; */
+        width: 310px;
+        float: left;
+        margin-left: 215px;
+    }
+    
+    .WB_innerwrap {
+        /* width: 300px; */
+        height: 58px;
+        background-color: #fff;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+    }
+    
+    .WB_innerwrap table {
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    table td {
+        width: 100px;
+        height: 50px;
+        margin: auto;
+        border-right: 1px solid #f2f2f5;
+        align: center;
+        color: #333;
+        text-align: center;
+    }
+    
+    .text1 {
+        display: block;
+    }
+    
+    .text2 {
+        display: block;
+    }
+    
+    .WB_innerwrap table .text3 {
+        border-right: 0;
+    }
+    /* 左边资料部分 */
+    
+    .person_info {
+        height: 129px;
+        /* width: 300px; */
+        background-color: #fff;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+        margin-top: 20px;
+    }
+    
+    .person_info .top {
+        height: 30px;
+        width: 280px;
+        margin: 0 auto;
+        background-color: #fff;
+        border-bottom: 1px solid #ececec;
+    }
+    
+    .person_info .mid {
+        margin-top: 15px;
+        display: inline-block;
+        height: 46px;
+        text-align: center;
+        vertical-align: middle;
+    }
+    
+    .mid p {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    .person_info .bottom {
+        height: 20px;
+        width: 280px;
+        margin: 0 auto;
+        background-color: #fff;
+        border-top: 1px solid #ececec;
+        text-align: center;
+    }
+    
+    .bottom a {
+        display: inline-block;
+        color: rgb(87, 87, 87);
+        font-size: 13px;
+        text-align: center;
+        vertical-align: middle;
+        margin-top: 8px;
+    }
+    /* 右边部分 */
+    
+    .right {
+        float: right;
+        width: 580px;
+        margin-right: 212px;
+    }
+    
+    .right_nav {
+        float: right;
+        width: 600px;
+        height: 38px;
+        background-color: #f2f2f5;
+        box-shadow: 0 0 2px rgba(61, 47, 47, 0.2);
+    }
+    
+    .right_nav a {
+        float: left;
+    }
+    
+    .all {
+        background-color: #fff;
+        border-bottom: 2px solid skyblue;
+    }
+    
+    .all,
+    .hot,
+    .more {
+        display: inline-block;
+        width: 90px;
+        height: 38px;
+        line-height: 38px;
+        text-align: center;
+        color: #333;
+    }
+    
+    .right_nav a:hover {
+        background-color: #fff;
+        border-bottom: 2px solid skyblue;
+    }
+    /* .right_nav .ficon {
+        width: 20px;
+        height: 20px;
+        border-right: 1px solid #333;
+        border-bottom: 1px solid #333;
+        transform: rotate(45deg);
+    } */
+    /* 动态部分 */
+    
+    .right_main {
+        float: right;
+        width: 570px;
+        margin-top: 15px;
+        padding: 15px;
+        background-color: #fff;
+        box-shadow: 0 0 2px rgba(61, 47, 47, 0.2);
+    }
+    
+    .right_img img {
+        float: left;
+        width: 50px;
+        border-radius: 100%;
+    }
+    
+    .detail {
+        float: left;
+        margin-left: 10px;
+    }
+    
+    .detail .info {
+        font-size: 14px;
+        font-weight: 700;
+    }
+    
+    .detail .date {
+        font-size: 12px;
+        color: #808080;
+    }
+    /* 动态底部 */
+    
+    .handle {
+        float: right;
+        width: 600px;
+        height: 39px;
+        background-color: #fff;
+        box-shadow: 0 0 2px rgba(61, 47, 47, 0.2);
+    }
+    
+    .handle div {
+        float: left;
+        width: 148px;
+        height: 30px;
+        color: #333;
+        font-size: 14px;
+        line-height: 30px;
+        text-align: center;
+    }
+    
+    .handle .collect,
+    .send,
+    .comment {
+        margin-top: 4px;
+        border-right: 1px solid #d3d3d3;
+    }
+    
+    .handle .bang {
+        margin-top: 4px;
+    }
